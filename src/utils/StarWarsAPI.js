@@ -3,7 +3,7 @@ const headers = {
 }
 
 export const getAll = () =>
-    fetch(`./people`, { headers })
+    fetch(`/people`)
         .then(res => res.json())
         .then(data => data.results)
 

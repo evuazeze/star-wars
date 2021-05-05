@@ -1,4 +1,4 @@
-const api = 'http://swapi.dev/api'
+const api = 'https://swapi.dev/api'
 
 let token = localStorage.token
 

@@ -1,7 +1,9 @@
-const api = 'https://swapi.dev/api'
+const headers = {
+    'Accept': 'application/json'
+}
 
 export const getAll = () =>
-    fetch(`${api}/people`)
+    fetch(`/people`, { headers })
         .then(res => res.json())
         .then(data => data.results)
 

@@ -1,7 +1,8 @@
 const api = 'https://swapi.dev/api'
 
 const headers = {
-    'Accept': 'application/json'
+    'Accept': 'application/json',
+    'Access-Control-Allow-Origin': '*'
 }
 
 export const getAll = () =>
